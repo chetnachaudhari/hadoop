@@ -1,6 +1,6 @@
-Yarn Scheduler Load Simulator (SLS)
+YARN Scheduler Load Simulator (SLS)
 
-SLS is a stress and performance harness for the Yarn Resource Manager Scheduler
+SLS is a stress and performance harness for the YARN Resource Manager Scheduler
 that exercises the scheduler implementation simulating the cluster size and the
 applications load without having to have a cluster nor applications.
 

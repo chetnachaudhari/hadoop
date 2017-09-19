@@ -698,7 +698,7 @@
     <![CDATA[NMTokenCache manages NMTokens required for an Application Master
  communicating with individual NodeManagers.
  <p>
- By default Yarn client libraries {@link AMRMClient} and {@link NMClient} use
+ By default YARN client libraries {@link AMRMClient} and {@link NMClient} use
  {@link #getSingleton()} instance of the cache.
  <ul>
    <li>
@@ -1041,7 +1041,7 @@
       <![CDATA[Get the AMRM token of the application.
  <p>
  The AMRM token is required for AM to RM scheduling operations. For 
- managed Application Masters Yarn takes care of injecting it. For unmanaged
+ managed Application Masters YARN takes care of injecting it. For unmanaged
  Applications Masters, the token must be obtained via this method and set
  in the {@link org.apache.hadoop.security.UserGroupInformation} of the
  current user.
