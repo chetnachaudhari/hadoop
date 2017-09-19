@@ -1739,7 +1739,7 @@ public class ContainerManagerImpl extends CompositeService implements
    * @param containerId Container Id.
    * @param autoCommit Auto Commit flag.
    * @param reInitLaunchContext Target Launch Context.
-   * @throws YarnException Yarn Exception.
+   * @throws YarnException YARN Exception.
    */
   public void reInitializeContainer(ContainerId containerId,
       ContainerLaunchContext reInitLaunchContext, boolean autoCommit)
@@ -1766,7 +1766,7 @@ public class ContainerManagerImpl extends CompositeService implements
    * Rollback the last reInitialization, if possible.
    * @param containerId Container ID.
    * @return Rollback Response.
-   * @throws YarnException Yarn Exception.
+   * @throws YarnException YARN Exception.
    */
   @Override
   public RollbackResponse rollbackLastReInitialization(ContainerId containerId)
@@ -1787,7 +1787,7 @@ public class ContainerManagerImpl extends CompositeService implements
    * Commit last reInitialization after which no rollback will be possible.
    * @param containerId Container ID.
    * @return Commit Response.
-   * @throws YarnException Yarn Exception.
+   * @throws YarnException YARN Exception.
    */
   @Override
   public CommitResponse commitLastReInitialization(ContainerId containerId)

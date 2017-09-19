@@ -15,9 +15,9 @@
    limitations under the License.
 -->
 
-# Yarn UI
+# YARN UI
 
-The Yarn UI is an Ember based web-app that provides visualization of the applications running on the Apache Hadoop YARN framework.
+The YARN UI is an Ember based web-app that provides visualization of the applications running on the Apache Hadoop YARN framework.
 
 ## Configurations
 
@@ -31,7 +31,7 @@ All the following commands must be run inside `src/main/webapp`.
 
 You will need the following things properly installed on your computer.
 
-* Install [Yarn](https://yarnpkg.com) v0.21.3
+* Install [YARN](https://yarnpkg.com) v0.21.3
 * Install [Bower](http://bower.io/) v1.7.7
 * Install all dependencies by running `yarn install` & `bower install`
 
@@ -49,9 +49,9 @@ You will need the following things properly installed on your computer.
 
 **Warning: Do not edit the _package.json_ or _bower.json_ files manually. This could make them out-of-sync with the respective lock or shrinkwrap files.**
 
-Yarn UI has replaced NPM with Yarn package manager. And hence Yarn would be used to manage dependencies defined in package.json.
+YARN UI has replaced NPM with YARN package manager. And hence YARN would be used to manage dependencies defined in package.json.
 
-* Please use the Yarn and Bower command-line tools to add new dependencies. And the tool version must be same as those defined in Prerequisites section.
+* Please use the YARN and Bower command-line tools to add new dependencies. And the tool version must be same as those defined in Prerequisites section.
 * Once any dependency is added:
   *  If it's in package.json. Make sure that the respective, and only those changes are reflected in yarn.lock file.
   *  If it's in bower.json. Make sure that the respective, and only those changes are reflected in bower-shrinkwrap.json file.

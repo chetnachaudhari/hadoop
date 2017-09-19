@@ -128,7 +128,7 @@
             </executions>
           </plugin>
 
-          <!-- Install Node, Yarn, Bower & dependencies -->
+          <!-- Install Node, YARN, Bower & dependencies -->
           <plugin>
             <groupId>com.github.eirslett</groupId>
             <artifactId>frontend-maven-plugin</artifactId>

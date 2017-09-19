@@ -55,9 +55,9 @@ Modules
 -------
 YARN consists of multiple modules. The modules are listed below as per the directory structure:
 
-hadoop-yarn-api - Yarn's cross platform external interface
+hadoop-yarn-api - YARN's cross platform external interface
 
-hadoop-yarn-common - Utilities which can be used by yarn clients and server
+hadoop-yarn-common - Utilities which can be used by YARN clients and server
 
 hadoop-yarn-server - Implementation of the hadoop-yarn-api
 	hadoop-yarn-server-common - APIs shared between resourcemanager and nodemanager
@@ -66,7 +66,7 @@ hadoop-yarn-server - Implementation of the hadoop-yarn-api
 
 Utilities for understanding the code
 ------------------------------------
-Almost all of the yarn components as well as the mapreduce framework use
+Almost all of the YARN components as well as the mapreduce framework use
 state-machines for all the data objects. To understand those central pieces of
 the code, a visual representation of the state-machines helps much. You can first
 convert the state-machines into graphviz(.gv) format by

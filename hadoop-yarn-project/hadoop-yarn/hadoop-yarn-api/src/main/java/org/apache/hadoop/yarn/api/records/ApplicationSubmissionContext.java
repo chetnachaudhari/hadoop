@@ -53,7 +53,7 @@ import org.apache.hadoop.yarn.util.Records;
  *   <li>
  *     maxAppAttempts. The maximum number of application attempts.
  *     It should be no larger than the global number of max attempts in the
- *     Yarn configuration.
+ *     YARN configuration.
  *   </li>
  *   <li>
  *     attemptFailuresValidityInterval. The default value is -1.
@@ -332,7 +332,7 @@ public abstract class ApplicationSubmissionContext {
 
   /**
    * Set the number of max attempts of the application to be submitted. WARNING:
-   * it should be no larger than the global number of max attempts in the Yarn
+   * it should be no larger than the global number of max attempts in the YARN
    * configuration.
    * @param maxAppAttempts the number of max attempts of the application
    * to be submitted.
