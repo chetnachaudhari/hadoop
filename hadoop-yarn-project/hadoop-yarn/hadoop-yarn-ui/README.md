@@ -31,7 +31,7 @@ All the following commands must be run inside `src/main/webapp`.
 
 You will need the following things properly installed on your computer.
 
-* Install [YARN](https://yarnpkg.com) v0.21.3
+* Install [Yarn](https://yarnpkg.com) v0.21.3
 * Install [Bower](http://bower.io/) v1.7.7
 * Install all dependencies by running `yarn install` & `bower install`
 
